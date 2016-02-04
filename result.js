@@ -91,7 +91,7 @@ function addballs (y,x,num) {
 				var ball = {
 					x : x + j * 2 * (R + 1) + (R + 1),
 					y : y + i * 2 * (R + 1) + (R + 1),
-					g : 4 + Math.random(),
+					g : 2 + Math.random(),
 					vx: Math.pow(-1,Math.ceil( Math.random()*1000)) * 4,
 					vy: -5,
 					color:color[Math.floor(Math.random()*color.length)]
